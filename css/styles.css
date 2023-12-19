@@ -1,7 +1,180 @@
 :root {
+  --main-color: #ff6868;
+  --link-color: #272727;
+  --p-color: #4a4a4a;
+  --price-color: #515151;
+  --foodname-color: #2c2c2c;
 }
 * {
   margin: 0 auto;
   padding: 0;
   max-width: 100%;
+}
+
+body {
+  font-family: "Inter", Poppins;
+
+  background: linear-gradient(180deg, #fafafa 0%, #fcfcfc 100%);
+}
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.link {
+  text-decoration: none;
+}
+.nav-list {
+  gap: 60px;
+}
+.nav .link {
+  color: var(--link-color);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.contact-btn {
+  background-color: var(--main-color);
+  border-radius: 40px;
+  padding: 13px 32px 13px 32px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+  border: none;
+  text-align: center;
+  display: flex;
+
+  gap: 14px;
+}
+.nav .logo {
+  color: var(--main-color);
+}
+.nav {
+  padding-top: 20px;
+}
+.div-btn {
+  position: relative;
+}
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 90vh;
+}
+.food {
+  color: var(--main-color);
+}
+.hero-head {
+  font-family: Inter;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 145.523%;
+  margin-bottom: 29px;
+  width: 100%;
+}
+.bilao .main-hero-img {
+  border-radius: 50%;
+  max-width: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+.bilao {
+  width: 50vw;
+  height: 100%;
+  justify-content: center;
+  align-items: start;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+.bilao .card {
+  padding: 10px;
+  position: absolute;
+
+  width: 249px;
+
+  flex-shrink: 0;
+  background: linear-gradient(180deg, #fafafa 0%, #fcfcfc 100%);
+  border-radius: 10px;
+  box-shadow: 7px 35px 51px 0px rgba(0, 0, 0, 0.14);
+  display: flex;
+
+  height: 90px;
+}
+.bilao .first-card {
+  bottom: 10%;
+  left: 5%;
+}
+.bilao .second-card {
+  bottom: 10%;
+  right: 5%;
+}
+.card .card-list {
+  list-style: none;
+  margin-left: 13px;
+}
+.card-list .food-name {
+  color: var(--foodname-color);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card-list .price {
+  font-size: 18px;
+  color: var(--price-color);
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card-list .price span {
+  font-size: 14px;
+  color: var(--main-color);
+}
+.card img {
+  border-radius: 10px;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bilao-title {
+  width: 50vw;
+  height: 100%;
+  padding-left: 10%;
+  justify-content: center;
+  align-items: start;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.bilao-title p {
+  color: var(--p-color);
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 170.5%;
+  margin-bottom: 41px;
+  width: 100%;
+}
+.bilao-title .contact-btn {
+  box-shadow: -2px 22px 38px 0px rgba(255, 104, 104, 0.5);
+}
+.rate-stars {
+  display: flex;
+  padding: 5px 0 5px 0;
 }
