@@ -58,6 +58,7 @@ body {
 .nav .logo {
   color: var(--main-color);
   font-size: 26px;
+  font-weight: 800;
 }
 .nav {
   padding-top: 20px;
@@ -378,4 +379,163 @@ body {
 }
 .menu-price .amount span {
   color: #ff6868;
+}
+.sec-tesmonials {
+  width: 100%;
+  height: 80vh;
+}
+.sec-tesmonials .container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+.chef-frame {
+  border-radius: 140px 140px 41px 41px;
+  background: #53ec62;
+  width: 492px;
+  height: 262px;
+  position: absolute;
+  bottom: 20.5%;
+  z-index: -1;
+}
+.chef-img {
+  width: 100%;
+}
+.testimonials {
+  color: var(--main-color);
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  margin-bottom: 53px;
+
+  margin-left: 0;
+}
+.testimonials-h1 {
+  color: var(--font-black);
+
+  font-family: Inter;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 131.023%;
+  margin-bottom: 29px;
+  margin-left: 0;
+}
+.testimonials-comment {
+  width: 655px;
+}
+.testimonials-group {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  flex-direction: column;
+  justify-content: center;
+}
+.chef-group {
+  position: relative;
+}
+footer .container {
+  display: flex;
+}
+footer .container .logo {
+  color: var(--main-color);
+  font-size: 26px;
+  font-weight: 800;
+}
+footer .container ul {
+  list-style-type: none;
+}
+.soc-med-group {
+  display: flex;
+  margin: 105px;
+  justify-content: center;
+}
+.soc-med-list {
+  margin-left: 35px;
+
+  gap: 19px;
+}
+.menu-footer-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 31px;
+}
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 31px;
+}
+.contacts-list li {
+  margin: 0;
+  color: var(--p-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menu-footer-list li {
+  margin: 0;
+  color: var(--p-color);
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menu-footer-list .main {
+  color: var(--font-black);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.contacts-list .main {
+  color: var(--font-black);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer-logo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+}
+.footer-logo-list li {
+  margin: 0;
+}
+.soc-med-item {
+  width: 48px;
+  height: 48px;
+  background-color: var(--heart-bg);
+  border-radius: 50%;
+
+  text-align: center;
+}
+.soc-med-item a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+.soc-med-item a img {
+  width: 22px;
+}
+.soc-med-group p {
+  color: var(--price-color);
+  padding: 15px 0 15px 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 133px;
 }
