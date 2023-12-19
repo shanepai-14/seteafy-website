@@ -54,6 +54,7 @@ body {
 }
 .nav .logo {
   color: var(--main-color);
+  font-size: 26px;
 }
 .nav {
   padding-top: 20px;
@@ -107,7 +108,7 @@ body {
   flex-shrink: 0;
   background: linear-gradient(180deg, #fafafa 0%, #fcfcfc 100%);
   border-radius: 10px;
-  box-shadow: 7px 35px 51px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 12px 5px 39px 23px rgba(0, 0, 0, 0.14);
   display: flex;
 
   height: 90px;
@@ -177,4 +178,26 @@ body {
 .rate-stars {
   display: flex;
   padding: 5px 0 5px 0;
+}
+.food-lami {
+  position: absolute;
+  left: -7%;
+  top: 9%;
+}
+.food-lami img {
+  filter: drop-shadow(26px 22px 51px rgba(0, 0, 0, 0.14));
+  fill: #fbfbfb;
+}
+.food-lami p {
+  position: absolute;
+  left: 20%;
+  bottom: 60%;
+  z-index: 3;
+  color: #ff6868;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
