@@ -681,4 +681,62 @@ footer .container ul {
     padding: 24px;
     position: relative;
   }
+  .sec-tesmonials .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    height: auto;
+  }
+  .sec-tesmonials {
+    height: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .chef-group {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .soc-med-group {
+    display: flex;
+    flex-direction: column;
+    margin: 105px;
+    justify-content: center;
+  }
+  .testimonials-comment {
+    width: auto;
+  }
+  .testimonials-group {
+    text-align: center;
+  }
+  .testimonials {
+    margin-left: auto;
+  }
+  .testimonials-h1 {
+    font-size: 32px;
+    margin-left: auto;
+  }
+  .chef-frame {
+    width: 100%;
+    bottom: 4px;
+  }
+  .menu-footer-list {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .contacts-list {
+    text-align: center;
+  }
+  .footer-logo-list {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .soc-med-group p {
+    margin-left: auto;
+    font-size: 13px;
+  }
 }
