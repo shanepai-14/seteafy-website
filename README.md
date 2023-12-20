@@ -29,7 +29,7 @@ To explore or contribute to the project, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/Seteafy-Snacks-Bilao-Website.git
+   https://github.com/shanepai-14/seteafy-website.git
    ```
 
 2. **Open in a Browser:**
