@@ -650,10 +650,11 @@ footer .container ul {
   .section-two .container .sec-two-list {
     display: flex;
     flex-wrap: wrap;
-    gap:15px;
+    gap: 15px;
   }
   .section-two {
     height: auto;
+    margin-bottom: 60px;
   }
   .sec-two-list li {
     width: 156px;
@@ -665,11 +666,19 @@ footer .container ul {
     font-size: 15px;
     margin-bottom: 6px;
   }
-  .sec-two-list li p{
+  .sec-two-list li p {
     font-size: 10px;
   }
   .sec-two-list li img {
     margin-bottom: 6px;
-   width: 70px;
-}
+    width: 70px;
+  }
+  .menu-list .menu-item {
+    border-radius: 15px;
+    width: 276px;
+
+    height: 256px;
+    padding: 24px;
+    position: relative;
+  }
 }
