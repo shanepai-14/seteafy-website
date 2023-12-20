@@ -355,7 +355,7 @@ body {
 }
 .menu-item .menu-img {
   border-radius: 50%;
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
   width: 120px;
   height: 120px;
   overflow: hidden;
