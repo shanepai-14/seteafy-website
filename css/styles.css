@@ -122,7 +122,7 @@ body {
 }
 .hero-head {
   font-family: Inter;
-  font-size: 62px;
+  font-size: 57px;
   font-style: normal;
   font-weight: 800;
   line-height: 145.523%;
@@ -606,7 +606,7 @@ footer .container ul {
   margin-left: 133px;
 }
 header {
-  height: 150px;
+  height: 84px;
 }
 /* Responsive Screen - Mobile */
 
