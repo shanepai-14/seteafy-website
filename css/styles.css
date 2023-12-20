@@ -7,6 +7,7 @@
   --button-text-color: #fff;
   --font-black: #000;
   --heart-bg: #39db4a;
+  --soc-med-bg: #edffef;
 }
 * {
   margin: 0 auto;
@@ -19,6 +20,10 @@ body {
 
   background: linear-gradient(180deg, #fafafa 0%, #fcfcfc 100%);
 }
+.menu-footer-list .link:hover,
+.menu-footer-list .link:focus {
+  color: var(--main-color);
+}
 .list {
   display: flex;
   list-style: none;
@@ -26,6 +31,7 @@ body {
 }
 .link {
   text-decoration: none;
+  color: var(--link-color);
 }
 .nav-list {
   gap: 60px;
@@ -531,9 +537,9 @@ footer .container ul {
 .soc-med-item {
   width: 48px;
   height: 48px;
-  background-color: var(--heart-bg);
+  background-color: var(--soc-med-bg);
   border-radius: 50%;
-
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
 }
 .soc-med-item a {
@@ -542,6 +548,11 @@ footer .container ul {
   display: block;
   display: flex;
   justify-content: center;
+}
+.soc-med-item :hover,
+.soc-med-item :focus {
+  background-color: var(--heart-bg);
+  border-radius: 50%;
 }
 .soc-med-item a img {
   width: 22px;
@@ -556,6 +567,9 @@ footer .container ul {
   vertical-align: middle;
   text-align: center;
   margin-left: 133px;
+}
+header {
+  height: 150px;
 }
 @media (max-width: 768px) {
   header {
@@ -738,5 +752,8 @@ footer .container ul {
   .soc-med-group p {
     margin-left: auto;
     font-size: 13px;
+  }
+  .soc-med-list {
+    margin: auto;
   }
 }
