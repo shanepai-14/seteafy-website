@@ -15,28 +15,33 @@ Welcome to the SeTeafy Snack's & Bilao's website repository! This simple and ele
 
 This website is designed to provide a visually appealing and user-friendly interface for exploring the culinary delights offered by SeTeafy Snack's & Bilao's. The use of HTML ensures a structured layout, while CSS adds style and responsiveness to enhance the overall user experience.
 
+![SeTeafy Snack's & Bilao's Logo](images/seteafyhero.png)
+
 ## Features
 
 - **Bilao Showcase:** Highlighting the hero dish, the Bilao, with enticing visuals and a description of its diverse offerings.
-  
 - **Owner's Special Delivery:** Emphasizing the personal touch of the owner's special delivery service.
 
 - **Simplicity and Elegance:** Utilizing HTML and CSS for a clean and straightforward design that focuses on the essence of the culinary experience.
+- **Mobile Responsive:** The website is designed to provide a seamless experience across various devices, ensuring accessibility and usability on both desktop and mobile platforms.
 
 ## Getting Started
 
 To explore or contribute to the project, follow these steps:
 
 1. **Clone the Repository:**
+
    ```bash
    https://github.com/shanepai-14/seteafy-website.git
    ```
 
 2. **Open in a Browser:**
+
    - Navigate to the project directory.
    - Open `index.html` in your preferred browser.
 
 3. **Make Changes:**
+
    - Modify HTML or CSS files as needed.
    - Refresh the browser to see the changes.
 
