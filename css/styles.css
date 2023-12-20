@@ -635,11 +635,24 @@ footer .container ul {
   .card-list .price {
     font-size: 9px;
   }
-  .rate-stars img{
+  .rate-stars img {
     width: 8px;
   }
   .card-list .price span {
     font-size: 7px;
-  
-}
+  }
+  .sec-two-h1 {
+    font-size: 32px;
+  }
+  .sec-two-h6 {
+    font-size: 15px;
+  }
+  .section-two .container .sec-two-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  .section-two {
+    height: auto;
+  }
 }
