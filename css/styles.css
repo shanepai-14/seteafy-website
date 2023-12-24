@@ -14,7 +14,9 @@
   padding: 0;
   max-width: 100%;
 }
-
+.icon {
+  display: none;
+}
 body {
   font-family: "Inter", Poppins;
 
@@ -50,6 +52,9 @@ body {
 }
 .nav-list {
   gap: 60px;
+  flex-direction: row;
+  display: flex;
+  visibility: visible;
 }
 .nav-list .link:hover,
 .nav-list .link:focus {
@@ -614,7 +619,11 @@ header {
   height: 84px;
 }
 /* Responsive Screen - Mobile */
-
+@media (min-width: 800px) {
+  .nav-list {
+    visibility: visible;
+  }
+}
 @media (max-width: 768px) {
   .owner {
     right: -12%;
@@ -668,8 +677,23 @@ header {
     width: 95vw;
     height: 100%;
   }
+  .icon {
+    display: block;
+    color: black;
+    font-size: 30px;
+  }
   .nav-list {
-    display: none;
+    position: absolute;
+    background-color: var(--button-text-color);
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+    height: auto;
+    gap: 2px;
+    visibility: hidden;
+  }
+  .nav-list li {
+    text-align: center;
   }
   .div-btn {
     display: none;
